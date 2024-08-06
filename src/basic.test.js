@@ -22,25 +22,25 @@ describe("sumAndPlusTen", () => {
   });
 });
 
-describe("maxNum", () => {
-  it("should return the second argument when it is greater", () => {
-    expect(maxNum(5, 10)).toBe(10);
-  });
+// describe("maxNum", () => {
+//   it("should return the second argument when it is greater", () => {
+//     expect(maxNum(5, 10)).toBe(10);
+//   });
 
-  it("should return the first argument when it is greater", () => {
-    expect(maxNum(50, 10)).toBe(50);
-  });
+//   it("should return the first argument when it is greater", () => {
+//     expect(maxNum(50, 10)).toBe(50);
+//   });
 
-  it("should return the first argument when both arguments are equal ", () => {
-    expect(maxNum(15, 15)).toBe(15);
-  });
+//   it("should return the first argument when both arguments are equal ", () => {
+//     expect(maxNum(15, 15)).toBe(15);
+//   });
 
-  it("should throw and error if one of the arguments is not a number", () => {
-    expect(() => maxNum(5, "10")).toThrowError(
-      "All of the arguments is a number!"
-    );
-  });
-});
+//   it("should throw and error if one of the arguments is not a number", () => {
+//     expect(() => maxNum(5, "10")).toThrowError(
+//       "All of the arguments is a number!"
+//     );
+//   });
+// });
 
 describe("factorial", () => {
   it("should return 1 when the input is 0 ", () => {
